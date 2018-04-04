@@ -10,6 +10,7 @@ CREATE TABLE cadastros
 	nome NVARCHAR(40) not null	,
 	cargo NVARCHAR(50) not null,
 	salario DECIMAL(14,2) not null,
+	nascimento date not null,
 	cpf NVARCHAR(11) not null
 )
 
