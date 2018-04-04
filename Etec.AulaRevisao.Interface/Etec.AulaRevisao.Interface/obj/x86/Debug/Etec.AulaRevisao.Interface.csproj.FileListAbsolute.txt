@@ -1,0 +1,8 @@
+C:\Users\Aluno\Desktop\AulaRevisao\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\bin\Debug\Etec.AulaRevisao.Interface.exe
+C:\Users\Aluno\Desktop\AulaRevisao\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\bin\Debug\Etec.AulaRevisao.Interface.pdb
+C:\Users\Aluno\Desktop\AulaRevisao\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\obj\x86\Debug\Etec.AulaRevisao.Interface.Form1.resources
+C:\Users\Aluno\Desktop\AulaRevisao\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\obj\x86\Debug\Etec.AulaRevisao.Interface.Properties.Resources.resources
+C:\Users\Aluno\Desktop\AulaRevisao\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\obj\x86\Debug\Etec.AulaRevisao.Interface.csproj.GenerateResource.Cache
+C:\Users\Aluno\Desktop\AulaRevisao\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\obj\x86\Debug\Etec.AulaRevisao.Interface.exe
+C:\Users\Aluno\Desktop\AulaRevisao\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\obj\x86\Debug\Etec.AulaRevisao.Interface.pdb
+C:\Users\Aluno\Desktop\AulaRevisao\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\obj\x86\Debug\Etec.AulaRevisao.Interface.csprojResolveAssemblyReference.cache
