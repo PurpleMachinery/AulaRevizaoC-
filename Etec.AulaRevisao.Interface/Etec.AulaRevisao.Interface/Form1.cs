@@ -39,7 +39,7 @@ namespace Etec.AulaRevisao.Interface
                 cpf = cpf.Replace(".", "");
                 cpf = cpf.Replace(",", "");
                 cpf = cpf.Replace("-", "");
-                String sql = "insert into cadastros (nome, cargo, salario, cpf) values ('" + txtNome.Text + "','" + txtCargo.Text + "','"+salario+"','"+cpf+"');";
+                String sql = "insert into cadastros (nome, cargo, salario, nascimento, cpf) values ('" + txtNome.Text + "','" + txtCargo.Text + "','" + salario + "','" + dtpData.Text + "','" + cpf + "');";
                 SqlCommand comando = new SqlCommand(sql, conn);
                 try
                 {

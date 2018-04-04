@@ -38,6 +38,8 @@
             this.lblCpf = new System.Windows.Forms.Label();
             this.mtxtSalario = new System.Windows.Forms.MaskedTextBox();
             this.mtxtCpf = new System.Windows.Forms.MaskedTextBox();
+            this.dtpData = new System.Windows.Forms.DateTimePicker();
+            this.lblData = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCadastrar
@@ -126,11 +128,30 @@
             this.mtxtCpf.Size = new System.Drawing.Size(218, 20);
             this.mtxtCpf.TabIndex = 9;
             // 
+            // dtpData
+            // 
+            this.dtpData.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpData.Location = new System.Drawing.Point(54, 137);
+            this.dtpData.Name = "dtpData";
+            this.dtpData.Size = new System.Drawing.Size(218, 20);
+            this.dtpData.TabIndex = 10;
+            // 
+            // lblData
+            // 
+            this.lblData.AutoSize = true;
+            this.lblData.Location = new System.Drawing.Point(13, 140);
+            this.lblData.Name = "lblData";
+            this.lblData.Size = new System.Drawing.Size(30, 13);
+            this.lblData.TabIndex = 11;
+            this.lblData.Text = "Data";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 206);
+            this.Controls.Add(this.lblData);
+            this.Controls.Add(this.dtpData);
             this.Controls.Add(this.mtxtCpf);
             this.Controls.Add(this.mtxtSalario);
             this.Controls.Add(this.lblCpf);
@@ -160,6 +181,8 @@
         private System.Windows.Forms.Label lblCpf;
         private System.Windows.Forms.MaskedTextBox mtxtSalario;
         private System.Windows.Forms.MaskedTextBox mtxtCpf;
+        private System.Windows.Forms.DateTimePicker dtpData;
+        private System.Windows.Forms.Label lblData;
     }
 }
 
