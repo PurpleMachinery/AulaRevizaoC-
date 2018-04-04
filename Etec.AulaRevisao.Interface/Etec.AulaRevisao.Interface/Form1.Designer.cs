@@ -40,11 +40,12 @@
             this.mtxtCpf = new System.Windows.Forms.MaskedTextBox();
             this.dtpData = new System.Windows.Forms.DateTimePicker();
             this.lblData = new System.Windows.Forms.Label();
+            this.btnConsulta = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCadastrar
             // 
-            this.btnCadastrar.Location = new System.Drawing.Point(54, 171);
+            this.btnCadastrar.Location = new System.Drawing.Point(16, 171);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(75, 23);
             this.btnCadastrar.TabIndex = 0;
@@ -54,7 +55,7 @@
             // 
             // btnLimpar
             // 
-            this.btnLimpar.Location = new System.Drawing.Point(135, 171);
+            this.btnLimpar.Location = new System.Drawing.Point(97, 171);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(75, 23);
             this.btnLimpar.TabIndex = 1;
@@ -145,11 +146,22 @@
             this.lblData.TabIndex = 11;
             this.lblData.Text = "Data";
             // 
+            // btnConsulta
+            // 
+            this.btnConsulta.Location = new System.Drawing.Point(178, 171);
+            this.btnConsulta.Name = "btnConsulta";
+            this.btnConsulta.Size = new System.Drawing.Size(75, 23);
+            this.btnConsulta.TabIndex = 12;
+            this.btnConsulta.Text = "Consulta";
+            this.btnConsulta.UseVisualStyleBackColor = true;
+            this.btnConsulta.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 206);
+            this.Controls.Add(this.btnConsulta);
             this.Controls.Add(this.lblData);
             this.Controls.Add(this.dtpData);
             this.Controls.Add(this.mtxtCpf);
@@ -183,6 +195,7 @@
         private System.Windows.Forms.MaskedTextBox mtxtCpf;
         private System.Windows.Forms.DateTimePicker dtpData;
         private System.Windows.Forms.Label lblData;
+        private System.Windows.Forms.Button btnConsulta;
     }
 }
 

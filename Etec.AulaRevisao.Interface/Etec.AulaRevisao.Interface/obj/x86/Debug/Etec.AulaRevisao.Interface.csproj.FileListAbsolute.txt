@@ -6,3 +6,4 @@ C:\Users\Aluno\Desktop\AulaRevisao\Etec.AulaRevisao.Interface\Etec.AulaRevisao.I
 C:\Users\Aluno\Desktop\AulaRevisao\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\obj\x86\Debug\Etec.AulaRevisao.Interface.exe
 C:\Users\Aluno\Desktop\AulaRevisao\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\obj\x86\Debug\Etec.AulaRevisao.Interface.pdb
 C:\Users\Aluno\Desktop\AulaRevisao\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\obj\x86\Debug\Etec.AulaRevisao.Interface.csprojResolveAssemblyReference.cache
+C:\Users\Aluno\Desktop\AulaRevisao\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\obj\x86\Debug\Etec.AulaRevisao.Interface.ConsultaFuncionario.resources

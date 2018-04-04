@@ -69,5 +69,11 @@ namespace Etec.AulaRevisao.Interface
             txtCargo.Text = "";
             txtNome.Text = "";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ConsultaFuncionario tt = new ConsultaFuncionario();
+            tt.Show();
+        }
     }
 }

@@ -5,3 +5,4 @@ C:\Users\Aluno\Desktop\AulaRevisao\Etec.AulaRevisao.Interface\Etec.AulaRevisao.I
 C:\Users\Aluno\Desktop\AulaRevisao\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\bin\Release\Etec.AulaRevisao.Interface.pdb
 C:\Users\Aluno\Desktop\AulaRevisao\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\obj\x86\Release\Etec.AulaRevisao.Interface.exe
 C:\Users\Aluno\Desktop\AulaRevisao\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\obj\x86\Release\Etec.AulaRevisao.Interface.pdb
+C:\Users\Aluno\Desktop\AulaRevisao\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\obj\x86\Release\Etec.AulaRevisao.Interface.ConsultaFuncionario.resources
