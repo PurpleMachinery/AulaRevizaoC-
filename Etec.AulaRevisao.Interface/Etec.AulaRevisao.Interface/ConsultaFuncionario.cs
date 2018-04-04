@@ -36,5 +36,17 @@ namespace Etec.AulaRevisao.Interface
             Form1 tt = new Form1();
             tt.Show();
         }
+
+        private void btnAtualizar_Click(object sender, EventArgs e)
+        {
+            String sql = "select * from cadastros";
+            SqlDataAdapter adaptador = new SqlDataAdapter(sql, conn);
+            DataSet datasetCliente = new DataSet();
+            adaptador.Fill(datasetCliente);
+            dgvFuncionario.DataSource = datasetCliente;
+            dgvFuncionario.DataMember = datasetCliente.Tables[0].TableName;
+
+            conn.Close();
+        }
     }
 }

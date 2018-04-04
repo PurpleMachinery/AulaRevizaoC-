@@ -30,6 +30,7 @@
         {
             this.dgvFuncionario = new System.Windows.Forms.DataGridView();
             this.btnCadastrarFuncionario = new System.Windows.Forms.Button();
+            this.btnAtualizar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFuncionario)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,11 +52,22 @@
             this.btnCadastrarFuncionario.UseVisualStyleBackColor = true;
             this.btnCadastrarFuncionario.Click += new System.EventHandler(this.btnCadastrarFuncionario_Click);
             // 
+            // btnAtualizar
+            // 
+            this.btnAtualizar.Location = new System.Drawing.Point(13, 43);
+            this.btnAtualizar.Name = "btnAtualizar";
+            this.btnAtualizar.Size = new System.Drawing.Size(75, 23);
+            this.btnAtualizar.TabIndex = 2;
+            this.btnAtualizar.Text = "Atualizar";
+            this.btnAtualizar.UseVisualStyleBackColor = true;
+            this.btnAtualizar.Click += new System.EventHandler(this.btnAtualizar_Click);
+            // 
             // ConsultaFuncionario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(657, 395);
+            this.Controls.Add(this.btnAtualizar);
             this.Controls.Add(this.btnCadastrarFuncionario);
             this.Controls.Add(this.dgvFuncionario);
             this.Name = "ConsultaFuncionario";
@@ -70,5 +82,6 @@
 
         private System.Windows.Forms.DataGridView dgvFuncionario;
         private System.Windows.Forms.Button btnCadastrarFuncionario;
+        private System.Windows.Forms.Button btnAtualizar;
     }
 }
